@@ -1,0 +1,369 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #708b75;
+    font-family: 'Teko', sans-serif;
+    color: #3D3158;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ .root{
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+ 
+ }
+ 
+ /* Nav-Bar Section */
+ 
+ .nav{
+     width: 100vw;
+     background-color: transparent;
+     display: flex;
+     align-items: center;
+ }
+ .n-logo{
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     align-self: flex-start;
+     margin-left: 15px;
+     margin-top: 10px;
+     cursor: pointer;
+     
+ 
+ }
+ .n-logo:hover{
+     -webkit-box-shadow: 0 0 5px #000;
+     box-shadow: 0 0 5px #000;
+ }
+ 
+  /* Nav-Bar Links */
+  
+  .links{
+     color: #444B6E;
+     font-size: 35px;
+     text-decoration: none;
+     align-items: center;
+     padding: 25px;
+     
+ }
+ .links:hover{
+     color: #F8F991;
+     transition: 0.05s ease;
+ }
+ .links::before{
+     content: '';
+     background-color: #0C2605;
+     position: fixed;
+     bottom: 3px;
+     top: 55px;
+     width: 4.5%;
+     height: 5px;
+     z-index: -1;
+     transition: all .3s ease-in-out;
+ }
+ .links:hover::before {
+     height: 5%;
+     color: #0C2605;
+     top: 5px;
+     border-radius: 2px;
+     background-color: #F8F991;
+ }
+ 
+   /* Nav-Bar Links */
+ 
+   /* Nav-Bar Section */
+ 
+   /* Hero Section */
+ .hero{
+     /* display: grid;
+     */
+     right: 0;
+     margin-top: 25vh;
+ }
+ .logo{
+     margin-left: 20vw;
+     display: grid;
+     grid-template-columns: 500px 500px;
+     grid-template-rows: 100px 25px 250px 250px 100px;
+     
+ }
+ 
+ .wel-txt{
+     font-weight: 900;
+     font-size: 50px;
+     z-index: 1;
+     grid-area: 3/1/4/2;
+     text-align: right; 
+     padding: 5px;
+     color: #000;
+     margin-right: 50px;
+     margin-top: 15px;
+ }
+ .beast-txt{
+     font-weight: 900;
+     font-size: 100px;
+     text-align: right;
+     grid-area: 3/1/5/2;
+     z-index: 2;
+     color: #000;
+     padding: 50px;
+     margin-bottom: 75px;
+    
+ }
+ .h-logo{
+     border-radius: 150px;
+     margin-top: 80px;
+     grid-area: 1/2/5/2;
+     z-index: 4;
+     -webkit-box-shadow: 0 0 30px #44B6E;
+     box-shadow: 0 0 30px #444B6E;
+     
+     
+ }
+ .light{
+     transform: rotate(90deg);
+     grid-area: 3/1/4/2;
+     z-index: l;
+     align-self: center;
+     position: absolute;
+     width: 150px;
+     height: 500px;
+     margin-left: 260px;
+     margin-bottom: 130px;
+     border-radius: 0px 0px 70px 0px;
+     background-color: #F8F991;
+ }
+ .light2{      
+     transform: rotate(90deg);
+     grid-area: 3/1/5/2;
+     z-index: -2;
+     align-self: center;
+     position: absolute;
+     width: 150px;
+     height: 550px;
+     margin-left: 260px;
+     margin-bottom: 300px;
+     border-radius: 0px 0px 150px 0px;
+     background-color: #548C1C; 
+ }
+ body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #708b75;
+    font-family: 'Teko', sans-serif;
+    color: #8E9C57;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ .root{
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+   height: 100vh;
+ 
+ }
+ 
+ /* Nav-Bar Section */
+ 
+ .nav{
+     width: 100vw;
+     background-color: transparent;
+     display: flex;
+     align-items: right;
+     margin-left: 70vw;
+ }
+ .n-logo{
+     width: 60px;
+     height: 60px;
+     border-radius: 50px;
+     align-self: flex-start;
+     margin-left: 15px;
+     margin-top: 10px;
+     cursor: pointer;
+     
+ 
+ }
+ .n-logo:hover{
+     -webkit-box-shadow: 0 0 5px #000;
+     box-shadow: 0 0 5px #000;
+ }
+ 
+  /* Nav-Bar Links */
+  .nav-link{
+     margin-top: 15px;
+  }
+  
+  .links{
+     color: #44B6E;
+     font-size: 35px;
+     text-decoration: none;
+     align-items: center;
+     padding: 25px;
+     
+     
+ }
+ .links:hover{
+     color: #2E590E;
+     transition: 0.05s ease;
+ }
+ .links::before{
+     content: '';
+     background-color: #0C2605;
+     position: fixed;
+     bottom: 3px;
+     top: 55px;
+     width: 4.5%;
+     height: 5px;
+     z-index: -1;
+     transition: all .3s ease-in-out;
+ }
+ .links:hover::before {
+     height: 5%;
+     color: #1A2C1D;
+     top: 5px;
+     border-radius: 2px;
+     background-color: #6E8856;
+ }
+ 
+   /* Nav-Bar Links */
+ 
+   /* Nav-Bar Section */
+ 
+   /* Hero Section */
+ .hero{
+     /* display: grid;
+     */
+     right: 0;
+     margin-top: 15vh;
+     width: 100%;
+     overflow: hidden;
+     display: flex;
+     white-space: nowrap;
+ }
+ .logo{
+     margin-left: 20vw;
+     display: grid;
+     grid-template-columns: 500px 500px;
+     grid-template-rows: 100px 25px 250px 250px 100px;
+     
+ }
+ 
+ .wel-txt{
+     font-weight: 900;
+     font-size: 50px;
+     z-index: 1;
+     grid-area: 3/1/4/2;
+     text-align: right; 
+     padding: 5px;
+     color: #6E8856;
+     margin-right: 50px;
+     margin-top: 15px;
+ }
+ .beast-txt{
+     font-weight: 900;
+     font-size: 100px;
+     text-align: right;
+     grid-area: 3/1/5/2;
+     z-index: 2;
+     color: #2E59E;
+     padding: 50px;
+     margin-bottom: 75px;
+    
+ }
+ .h-logo{
+     border-radius: 150px;
+     grid-area: 1/2/5/2;
+     z-index: 4;
+     margin-top: 75px;
+    
+     
+     
+ }
+ .light{
+     transform: rotate(90deg);
+     grid-area: 3/1/4/2;
+     z-index: l;
+     align-self: center;
+     position: absolute;
+     width: 150px;
+     height: 500px;
+     margin-left: 260px;
+     margin-bottom: 130px;
+     border-radius: 0px 0px 70px 0px;
+     background-color: #2E590E;
+ }
+ .light2{      
+     transform: rotate(90deg);
+     grid-area: 3/1/5/2;
+     z-index: -2;
+     align-self: center;
+     position: absolute;
+     width: 150px;
+     height: 550px;
+     margin-left: 260px;
+     margin-bottom: 300px;
+     border-radius: 0px 0px 150px 0px;
+     background-color: #8EBF24; 
+ }
+ svg {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     z-index: -5;
+ }
+ 
+ 
+ marquee {
+     font-weight: 500;
+     font-size: 26px;
+     text-align: left;
+     color: #F8F991;
+     margin-bottom: 25px;
+   /* animation properties
+   -moz-transform: translateY(-100%);
+   -webkit-transform: translateY(-100%);
+   transform: translateX(-100%);
+   
+   -moz-animation: my-animation 1s linear infinite;
+   -webkit-animation: my-animation 1s linear infinite;
+   animation: my-animation 20s linear infinite; */
+ }
+ 
+ 
+ /* @keyframes my-animation {
+     from {
+       -moz-transform: translateX(-100%);
+       -webkit-transform: translateX(-100%);
+       transform: translateX(-100%);
+     }
+     to {
+       -moz-transform: translateX(100%);
+       -webkit-transform: translateX(100%);
+       transform: translateX(100%);
+     }
+   } */
+ /* .mark1{
+     /* background-color: #444B6E;
+     z-index: 6;
+     width: 100vw;
+     height: 50px;
+     margin-top: -55px;
+ }*/
+ 
+ 
+   /* Hero Section */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   /* Hero Section */
